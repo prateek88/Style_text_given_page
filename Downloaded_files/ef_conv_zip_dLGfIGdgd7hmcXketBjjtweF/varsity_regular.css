@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'varsity_regular';
+    src: url('fonts/varsity_regular.eot');
+    src: url('fonts/varsity_regular.eot') format('embedded-opentype'),
+         url('fonts/varsity_regular.woff2') format('woff2'),
+         url('fonts/varsity_regular.woff') format('woff'),
+         url('fonts/varsity_regular.ttf') format('truetype'),
+         url('fonts/varsity_regular.svg#varsity_regular') format('svg');
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TravelingTypewriter';
+    src: url('fonts/TravelingTypewriter.eot');
+    src: url('fonts/TravelingTypewriter.eot') format('embedded-opentype'),
+         url('fonts/TravelingTypewriter.woff2') format('woff2'),
+         url('fonts/TravelingTypewriter.woff') format('woff'),
+         url('fonts/TravelingTypewriter.ttf') format('truetype'),
+         url('fonts/TravelingTypewriter.svg#TravelingTypewriter') format('svg');
+}

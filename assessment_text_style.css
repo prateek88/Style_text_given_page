@@ -1,0 +1,161 @@
+/* General setup */
+@font-face {
+    font-family: 'para';
+    src: url('fonts/TravelingTypewriter.eot');
+    src: url('fonts/TravelingTypewriter.eot') format('embedded-opentype'),
+         url('fonts/TravelingTypewriter.woff2') format('woff2'),
+         url('fonts/TravelingTypewriter.woff') format('woff'),
+         url('fonts/TravelingTypewriter.ttf') format('truetype'),
+         url('fonts/TravelingTypewriter.svg#TravelingTypewriter') format('svg');
+}
+
+@font-face {
+    font-family: 'heading';
+    src: url('fonts/varsity_regular.eot');
+    src: url('fonts/varsity_regular.eot') format('embedded-opentype'),
+         url('fonts/varsity_regular.woff2') format('woff2'),
+         url('fonts/varsity_regular.woff') format('woff'),
+         url('fonts/varsity_regular.ttf') format('truetype'),
+         url('fonts/varsity_regular.svg#varsity_regular') format('svg');
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+html {
+  font-family: 'para', serif;
+  /*font-family: serif;*/
+  font-size: 10px;
+}
+
+h1, h2 {
+  /*font-family: 'heading', serif;*/
+  font-family: sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: 0.8px;
+}
+
+header, section, aside, nav, footer {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  word-spacing: 3px;
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+}
+
+section > p {
+  text-indent: 20px;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #a66;
+  outline: none;
+}
+
+a:visited {
+  color: #700606;
+}
+
+a:focus {
+  background-color: green;
+  color: rgb(119, 85, 226);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ba8f3c;
+  background-color: #ece5d8;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: #ba8f3c;
+  color: rgb(119, 85, 226);
+}
+
+a[href^="http"] {
+  background: url('external-link.png') no-repeat right top;
+  background-size: 13px 13px;
+  /*background-origin: border-box;*/
+  padding-right: 15px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+nav>ul>li {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+nav>ul>li:last-child {
+  margin-bottom: 0;
+}
+
+nav>ul>li>a {
+  display: inline-block;
+  line-height: 3;
+  width: 100%;
+}
+
+nav>ul>li>a:link {
+  text-decoration: none;
+  background-color: #ba8f3c;
+}
+
+nav>ul>li>a:focus,
+nav>ul>li>a:hover,
+nav>ul>li>a:active {
+  color: white;
+  background-color: #4d360b;
+}
